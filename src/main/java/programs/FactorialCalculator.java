@@ -19,7 +19,7 @@ public class FactorialCalculator {
 
     // Method to calculate the factorial of a number
     public static long calculateFactorial(int n) {
-        if (n < 0) {
+        if (n <0) {
             // Factorial is not defined for negative numbers
             throw new IllegalArgumentException("Factorial is not defined for negative numbers.");
         }
