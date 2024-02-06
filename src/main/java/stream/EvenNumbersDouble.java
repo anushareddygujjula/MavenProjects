@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class EvenNumbersDouble {
+    //remove all even and them double
 
     public static List<Integer> filterAndDouble(List<Integer> numbers) {
         return numbers.stream()
